@@ -42,32 +42,32 @@ class _BaseScreenState extends State<BaseScreen> {
   }
 
   String curentMessege() {
-    if (current_date.hour <= 10) {
+    if (current_date.hour <= 12) {
       return 'Good Moring';
     }
-    if (current_date.hour >= 10 && current_date.hour <= 13) {
+    if (current_date.hour > 12 && current_date.hour <= 14) {
       return 'Good After Noon';
     }
-    if (current_date.hour <= 17 && current_date.hour >= 13) {
+    if (current_date.hour > 14 && current_date.hour <= 19) {
       return 'Good evening ';
     }
-    if (current_date.hour >= 17 && current_date.hour <= 24) {
+    if (current_date.hour > 19 && current_date.hour <= 24) {
       return 'Good Night';
     }
-    return 'Hey Gooys';
+    return 'Hey Guys';
   }
 
   String curentImage() {
-    if (current_date.hour <= 10) {
+    if (current_date.hour <= 12) {
       return kmoring;
     }
-    if (current_date.hour >= 10 && current_date.hour <= 13) {
+    if (current_date.hour > 12 && current_date.hour <= 14) {
       return kmainbaground;
     }
-    if (current_date.hour <= 17 && current_date.hour >= 13) {
+    if (current_date.hour > 14 && current_date.hour <= 19) {
       return kevening;
     }
-    if (current_date.hour >= 17 && current_date.hour <= 24) {
+    if (current_date.hour > 19 && current_date.hour <= 24) {
       return knight;
     }
     return 'Hey Gooys';
