@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "741962271130",
+    "project_id": "weather-app-fd1fd",
+    "storage_bucket": "weather-app-fd1fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741962271130:android:192dffcfdc1696ab3b1223",
+        "android_client_info": {
+          "package_name": "com.example.weter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcF5UgAEVqIBbgg1L3kYbUuYiNlDBtojY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
